@@ -20,5 +20,8 @@ int main() {
 	
 	case '*':
 		cout << a << " * " << b << " = " << a * b << endl; break;
+
+	case '/':
+		cout << a << " / " << b << " = " << a / b << endl; break;
 	}
 }
