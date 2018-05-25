@@ -22,10 +22,6 @@ int main() {
 		cout << a << " * " << b << " = " << a * b << endl; break;
 
 	case '/':
-		if (a == 0 || b == 0) {
-			cout << "나누기에는 0이 들어갈 수 없습니다.";
-			break;
-		}
 		cout << a << " / " << b << " = " << a / b << endl; break;
 	}
 }
